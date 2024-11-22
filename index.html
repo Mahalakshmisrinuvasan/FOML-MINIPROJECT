@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Population Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Bird Population Predictor</h1>
+        <p class="fade-in">Enter the temperature to predict the bird population.</p>
+        <form action="/predict" method="POST" class="form fade-in">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" name="temperature" id="temperature" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+

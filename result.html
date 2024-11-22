@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <h1>Prediction Result</h1>
+        <p>The predicted bird population at the given temperature is: <strong>{{ predicted_population }}</strong></p>
+        <h2>Impact of Temperature on Bird Population</h2>
+        <img src="data:image/png;base64,{{ img_base64 }}" alt="Temperature vs Bird Population Plot">
+        <a href="/" class="button">Go Back</a>
+    </div>
+</body>
+</html>
